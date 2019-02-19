@@ -1,6 +1,6 @@
 Package: sampleSelection
-Version: 1.2-0
-Date: 2017-12-07
+Version: 1.2-2
+Date: 2019-02-19
 Title: Sample Selection Models
 Authors@R: c(
   person( given = "Arne", family = "Henningsen", role = c( "aut", "cre" ),
@@ -26,6 +26,6 @@ Description: Two-step
 License: GPL (>= 2)
 URL: http://www.sampleSelection.org
 NeedsCompilation: no
-Packaged: 2017-12-07 11:56:30 UTC; arne
+Packaged: 2019-02-19 10:03:19 UTC; gsl324
 Repository: CRAN
-Date/Publication: 2017-12-07 15:15:06 UTC
+Date/Publication: 2019-02-19 12:30:09 UTC
