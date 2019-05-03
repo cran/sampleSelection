@@ -1,6 +1,6 @@
 Package: sampleSelection
-Version: 1.2-2
-Date: 2019-02-19
+Version: 1.2-6
+Date: 2019-05-03
 Title: Sample Selection Models
 Authors@R: c(
   person( given = "Arne", family = "Henningsen", role = c( "aut", "cre" ),
@@ -13,7 +13,7 @@ Author: Arne Henningsen [aut, cre],
 Maintainer: Arne Henningsen <arne.henningsen@gmail.com>
 Depends: R (>= 2.10), maxLik (>= 0.7-3), stats
 Imports: miscTools (>= 0.6-3), systemfit (>= 1.0-0), Formula (>=
-        1.1-1), VGAM (>= 0.9-4), mvtnorm (>= 0.9-9994)
+        1.1-1), VGAM (>= 1.1-1), mvtnorm (>= 0.9-9994)
 Suggests: lmtest, Ecdat
 Description: Two-step
    and maximum likelihood estimation
@@ -23,9 +23,13 @@ Description: Two-step
    sample selection models with binary dependent outcome variable,
    interval regression with sample selection (only ML estimation),
    and endogenous treatment effects models.
+   These methods are described in the three vignettes
+   that are included in this package 
+   and in econometric textbooks such as
+   Greene (2011, Econometric Analysis, 7th edition, Pearson).
 License: GPL (>= 2)
 URL: http://www.sampleSelection.org
 NeedsCompilation: no
-Packaged: 2019-02-19 10:03:19 UTC; gsl324
+Packaged: 2019-05-03 11:35:21 UTC; gsl324
 Repository: CRAN
-Date/Publication: 2019-02-19 12:30:09 UTC
+Date/Publication: 2019-05-03 15:50:03 UTC
