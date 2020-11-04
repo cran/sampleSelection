@@ -1,5 +1,4 @@
 ### R code from vignette source 'treatReg.Rnw'
-### Encoding: UTF-8
 
 ###################################################
 ### code chunk number 1: treatReg.Rnw:38-41
@@ -26,7 +25,7 @@ z <- rnorm(N)
 ySX <- -1 + x + z + u      # unobserved participation tendency
 yS <- ySX > 0              # observed participation
 yO <- x + yS + v
-dat <- data.frame(yO, yS, x, z, ySX, u, v)
+dat <- data.frame(yO, yS, x, z)
 
 
 ###################################################

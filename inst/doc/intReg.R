@@ -1,5 +1,4 @@
 ### R code from vignette source 'intReg.Rnw'
-### Encoding: UTF-8
 
 ###################################################
 ### code chunk number 1: intReg.Rnw:203-214
