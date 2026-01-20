@@ -1,6 +1,6 @@
 Package: sampleSelection
-Version: 1.2-12
-Date: 2020-12-14
+Version: 1.2-14
+Date: 2026-01-19
 Title: Sample Selection Models
 Authors@R: c(
   person( given = "Arne", family = "Henningsen", role = c( "aut", "cre" ),
@@ -28,8 +28,8 @@ Description: Two-step
    and in econometric textbooks such as
    Greene (2011, Econometric Analysis, 7th edition, Pearson).
 License: GPL (>= 2)
-URL: http://www.sampleSelection.org
+URL: https://r-forge.r-project.org/projects/sampleselection/
 NeedsCompilation: no
-Packaged: 2020-12-14 22:31:03 UTC; gsl324
+Packaged: 2026-01-19 14:32:18 UTC; gsl324
 Repository: CRAN
-Date/Publication: 2020-12-15 07:00:03 UTC
+Date/Publication: 2026-01-20 08:50:02 UTC
