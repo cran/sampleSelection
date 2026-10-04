@@ -327,5 +327,3 @@ coef( summary( tobitML ) )[ "rho", ]
 ###################################################
 tobitTS <- selection(ys~x, y~x, method="2step")
 coef( summary( tobitTS ) )[ "rho", ]
-
-

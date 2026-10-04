@@ -244,5 +244,3 @@ SmokeRes2 <- selection( smoker ~ educ + age + restaurn,
 library( "lmtest" )
 lrtest( SmokeRes1, SmokeRes2 )
 waldtest( SmokeRes1, SmokeRes2 )
-
-

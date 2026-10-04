@@ -1,4 +1,4 @@
-library( "sampleSelection" )
+suppressPackageStartupMessages( library( "sampleSelection" ) )
 options( digits = 3 )
 
 ## Wooldridge( 2003 ): example 17.5, page 590
@@ -24,7 +24,7 @@ set.seed( 321 )
 nObs <- 10000
 
 # error terms (trivariate normal)
-sigma <- symMatrix( c( 2, 0.7, 1.2, 1, 0.5, 1 ) )
+sigma <- miscTools::symMatrix( c( 2, 0.7, 1.2, 1, 0.5, 1 ) )
 myData <- as.data.frame( rmvnorm( nObs, c( 0, 0, 0 ), sigma ) )
 names( myData ) <- c( "e0", "e1", "e2" )
 
@@ -41,7 +41,8 @@ myData$y2 <- ( -0.1 + 0.6 * myData$x1 + 0.7 * myData$x2 + myData$e2 ) > 0
 # bivariate probit (using rhobit transformation)
 bProbit <- vglm( cbind( y1, y2 ) ~ x1 + x2, family = binom2.rho,
    data = myData )
-summary( bProbit )
+sbProbit <- summary( bProbit )
+suppressWarnings( print( sbProbit ) )
 
 # inverse Mills Ratios
 imr  <- invMillsRatio( bProbit )
